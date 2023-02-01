@@ -1,12 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import Home from "./components/Home";
 
-const Home = () => {
-  return (
-    <div>
-      <div>Homepage</div>
-      <button onClick={() => console.log("click me")}>click me</button>
-    </div>
-  );
-};
-
-export default Home;
+ReactDOM.render(<Home />, document.getElementById("root"));
