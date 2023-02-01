@@ -1,0 +1,10 @@
+{
+  "name": "react-ssr-express",
+  "version": "1.0.0",
+  "description": "react ssr with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
